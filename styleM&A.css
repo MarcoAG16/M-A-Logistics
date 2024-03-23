@@ -1,0 +1,112 @@
+.header{
+    background-color: #609000
+    ;
+    width: 100%;
+}
+.hero{
+    padding: 5%;
+    margin-right: 0;
+}
+
+body{
+    background-color: #F0F0D8;
+}
+.price-button{
+    background-color: #609000;
+    border-color: #c0c078;
+}
+.price-button:hover{
+    background-color: #d8d8a8;
+    color: black;
+    border-color: #609000;
+}
+.nav-link{
+    color: #F0F0D8;
+}
+/*title-------------------------------*/
+.display-5{
+    color: red;
+    font-family: 'Rubik Mono One', monospace;
+    font-weight: lighter;
+
+
+}
+footer {
+    position: fixed;
+    bottom: 0%;
+    margin-bottom: 0;
+    width: 100%;
+    background-color: #d8d8a8; /* Color de fondo del footer */
+    border-top: 1px solid #dee2e6; /* Borde superior del footer */
+    z-index: 1000; /* Asegura que el footer esté por encima del resto del contenido */
+}
+.carousel-item {
+    height: 100%; /* Hace que las imágenes ocupen el 100% de la altura del contenedor del carrusel */
+    object-fit: cover; /* Ajusta la imagen para que cubra el área del contenedor manteniendo su relación de aspecto */
+  }
+
+
+/*Acordeon de FAQS*/
+.accordion-button {
+    background-color: #f0f0d8; /* Color de fondo del botón */
+    color: #333; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 100%;
+    margin-bottom: 10px; /* Espacio entre los botones */
+}
+.accordion-item{
+    background-color: transparent;
+    border-color: #f00000;
+}
+.accordion-button::after{
+    color: #86a14f;
+    background-image: url(/assets/img/arrowDown.svg);
+    
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url(/assets/img/arrowUp.svg);
+    background-color: transparent;
+
+}
+.accordion-button:not(.collapsed) {
+    color: #609000;
+
+    background-color: transparent;
+
+}
+.accordion-button:focus{
+    box-shadow: none;
+}
+
+/* Estilo para el contenido del acordeón */
+.accordion-body {
+    background-color: #ffffff; /* Color de fondo del cuerpo */
+    color: #555; /* Color del texto */
+    border: 1px solid #86a14f; /* Borde */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px; /* Espaciado interno */
+    font-size: 150%;
+}
+
+.nav-pills{
+    margin-right: 11%;
+    font-size: 135%;
+    font-weight: bold;
+
+}
+.nav {
+    --bs-nav-link-padding-x: 1rem;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color: var(--bs-link-color);
+    --bs-nav-link-hover-color: #c0c078;
+    --bs-nav-link-disabled-color: var(--bs-secondary-color);}
+    
+.svgHeader{
+    margin-left: 10%;
+}
+.contactMeans{
+    margin-top: 5%;
+}
+
