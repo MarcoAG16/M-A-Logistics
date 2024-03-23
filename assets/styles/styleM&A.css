@@ -32,7 +32,6 @@ body{
 
 }
 footer {
-    position: fixed;
     bottom: 0%;
     margin-bottom: 0;
     width: 100%;
@@ -108,5 +107,6 @@ footer {
 }
 .contactMeans{
     margin-top: 5%;
+    padding: 2%;
 }
 
